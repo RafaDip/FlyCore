@@ -110,7 +110,7 @@ GROUP_TIME_EXPIRE_LEFT: "§aServer §8| §fYour group's time %s§f has expired, 
 PREFIX_TIME_EXPIRE_LEFT: "§aServer §8| §fYour prefix's time %s§f has expired, and it has been removed"
 ANARCHY_KILL_MOB: '§6+%s %s for kill mob'
 MODE_KILL_PLAYER: '§6+%s %s за убийство игрока'
-BOX_GIVE_KILLS: '§fВы получили §a%s§f %s§f за убийство %s'
+BOX_GIVE_KILLS: '§fYou got §a%s§f %s§f for kill %s'
 PLAYER_IS_PRIVATE: '§aServer §8| §fCurrent player enabled private mode, information for player is not available'
 PLAYER_NO_PLOT: '§aServer §8| §fYou have to be a plot member to use your opportunities'
 PLAYER_NO_REGION: '§aServer §8| §fYou have to be a region member to use your opportunities'
@@ -460,10 +460,10 @@ WINS_1:
 - 's'
 
 LOSINGS:
-- 'проигрыш'
-- 'а'
-- 'а'
-- 'ей'
+- 'lose'
+- ''
+- 's'
+- 's'
 
 MONEYS:
 - 'coin'
@@ -538,10 +538,10 @@ UPDATES:
 - 's'
 
 HOMES:
-- 'дом'
-- 'а'
-- 'ов'
-- 'ов'
+- 'home'
+- ''
+- 's'
+- 's'
 
 HOMES_2:
 - 'home'
@@ -655,27 +655,27 @@ HP_ADD: '§c+%s hp'
 
 PLAYER_NO_MONEY:
 - ''
-- '§aServer §8| §fOn your account недостаточно §amoney§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §amoney§f. Пополнить Your balance можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_GOLDS:
 - ''
-- '§aServer §8| §fOn your account недостаточно §egold§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §egold§f. Пополнить Your balance можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_CORE:
 - ''
-- '§aServer §8| §fOn your account недостаточно §bcores§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §bcores§f. Пополнить Your balance можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_LEVEL:
 - ''
-- '§aServer §8| §fOn your account недостаточно §dlevel§f. Приобрести опыт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §dlevel§f. Приобрести XP можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_KEYS:
 - ''
-- '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести keys можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO:
 - ''
-- '§aСервер §8| §fНа вашем счёте нехватает §a%s§f. Приобрести %s§f можно на сайте §bflycore.ru'
+- '§aСервер §8| §fIn your balance нехватает §a%s§f. Приобрести %s§f можно на сайте §bflycore.ru'
 - '§r'
 PLAYER_LIMIT: '§cОшибка, лимит символов не должен быть больше числа %s'
 
@@ -849,13 +849,13 @@ BEDWARS_INFO:
 - '§eчем они вас! Пока у команды есть кровать — команда возрождается.'
 - '§eСломайте её у противника и защитите свою!'
 
-BEDWARS_BOOSTER: 'Множитель §b%sx§f активирован'
-BEDWARS_MODE_RUSH: 'BedWars Rush, ваш стартовый баланс: §a%s'
+BEDWARS_BOOSTER: 'Множитель §b%sx§f activate'
+BEDWARS_MODE_RUSH: 'BedWars Rush, your start balance: §a%s'
 
 BEDWARS_NO_BED_BREAK: '§cВы не можете сломать кровать вашей команды!'
 
-ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
-ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
+ARENA_TYPE_TEAM_NO_TEAM: '§c§lWarning! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
+ARENA_TYPE_SOLO_NO_TEAM: '§c§lWarning! §cTeam game запрещена in Solo mode. Докладывайте о таких игроках на форум.'
 
 GUI_BW_SHOP_NAME: 'Shop'
 GUI_BW_SHOP_BUY: '§a▸ Click, to buy'
@@ -867,58 +867,57 @@ GUI_BW_SHOP_INFO:
 - '§8купить в 5 раз больше'
 - '§8Цена с учетом x5: %s'
 
-GUI_BW_SHOP_BLOCKS: 'Блоки'
-GUI_BW_SHOP_CHESTPLATE: 'Броня'
-GUI_BW_SHOP_PICKAXE: 'Кирки'
-GUI_BW_SHOP_SWORD: 'Мечи'
-GUI_BW_SHOP_BOW: 'Луки'
-GUI_BW_SHOP_FEED: 'Еда'
-GUI_BW_SHOP_CHEST: 'Сундуки'
-GUI_BW_SHOP_POTION: 'Зелья'
-GUI_BW_SHOP_OTHER: 'Разное'
+GUI_BW_SHOP_BLOCKS: 'Blocks'
+GUI_BW_SHOP_CHESTPLATE: 'Armor'
+GUI_BW_SHOP_PICKAXE: 'Pickaxes'
+GUI_BW_SHOP_SWORD: 'Swords'
+GUI_BW_SHOP_BOW: 'Bows'
+GUI_BW_SHOP_FEED: 'Foods'
+GUI_BW_SHOP_CHEST: 'Chests'
+GUI_BW_SHOP_POTION: 'Potions'
+GUI_BW_SHOP_OTHER: 'Different'
 
 GUI_BW_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
-GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aПКМ, чтобы добавить в избранное'
-GUI_BW_SHOP_GUI_REMOVE_FAVOURITE: '§cПКМ, чтобы удалить из избранного'
+GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aRight click, чтобы добавить в избранное'
+GUI_BW_SHOP_GUI_REMOVE_FAVOURITE: '§cRight click, чтобы удалить из избранного'
 GUI_BW_SHOP_GUI_NO_SLOTS_FAVOURITE: '§cУ вас нет свободных слотов для добавления в избранное!'
-GUI_BW_SHOP_GUI_FAVOURITE: 'Пустой слот для избранного'
+GUI_BW_SHOP_GUI_FAVOURITE: 'Empty slot for favorites'
 GUI_BW_SHOP_GUI_FAVOURITE_LOER:
 - ''
-- '§cДанный слот заблокирован'
-- '§cКупите %s§c или выше, чтобы разблокировать'
+- '§cThis slot blocked'
+- '§cBuy %s§c or higher, for unlock'
 
 GUI_BW_SHOP_ITEM_LEVEL: '§8(§fLvl.%s§8)'
 
-GUI_BEDWARS_CHEST: 'Сундук команды'
+GUI_BEDWARS_CHEST: 'Team chest'
 
-ITEM_TP_NAME: '§eТелепортатор'
+ITEM_TP_NAME: '§eTeleportator'
 ITEM_TP_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы наблюдать за игроками'
-ITEM_SETTINGS_NAME: '§eНастройка смотрящих'
+- '§7Use this item,'
+- '§7for watching players'
+ITEM_SETTINGS_NAME: '§eWatcher Settings'
 ITEM_SETTINGS_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы изменить настройки'
+- '§7Use this item,'
+- '§7for change settings'
 - '§7наблюдателя'
 ITEM_COSMETIC_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы выбрать косметику'
-- '§7для игры'
+- '§7Use this item,'
+- '§7for game cosmetics'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
-- '§7Жизней: §f%s'
+- '§7Health: §f%s'
 - '§7Голод: §f%s'
 - ''
-- '§e▸ Нажмите, чтобы телепортироваться'
+- '§e▸ Click, for teleport'
 
 GUI_SETTINGS_NAME: 'Настройка наблюдателей'
-GUI_SETTINGS_SPEED_0: '§aУбрать скорость'
-GUI_SETTINGS_SPEED_1: '§aСкорость I'
-GUI_SETTINGS_SPEED_2: '§aСкорость II'
-GUI_SETTINGS_SPEED_3: '§aСкорость III'
-GUI_SETTINGS_SPEED_4: '§aСкорость IV'
-GUI_SETTINGS_NIGHT: '§aНочное зрение'
+GUI_SETTINGS_SPEED_0: '§aClear speed'
+GUI_SETTINGS_SPEED_1: '§aSpeed I'
+GUI_SETTINGS_SPEED_2: '§aSpeed II'
+GUI_SETTINGS_SPEED_3: '§aSpeed III'
+GUI_SETTINGS_SPEED_4: '§aSpeed IV'
+GUI_SETTINGS_NIGHT: '§aNight vision'
 GUI_SETTINGS_NIGHT_OFF:
 - ''
 - '§e▸ Нажмите, чтобы выключить ночное зрение'
@@ -985,20 +984,20 @@ SITE_SHOP_ITEM_LORE_2:
 - '§cВНИМАНИЕ! У вас должно быть %s'
 - '§cсвободных слотов в вашем инвентаре!'
 - ' '
-SITE_SHOP_ITEM_LORE_3: '§e▸ Нажмите, чтобы получить'
+SITE_SHOP_ITEM_LORE_3: '§e▸ Click, for buy'
 SITE_SHOP_ITEM_LORE_4:
 - '§7Цена: §e%s §7%s'
 - ''
-- '§e▸ Нажмите, чтобы купить'
+- '§e▸ Click, for buy'
 
 PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 
 REWARDS_1: '§fYou got §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
 REWARDS_3: '§7+§a%s§f EXP'
-REWARDS_4: '§7+§d%s§f Косметических keys'
-REWARDS_5: '§7+§d%s§f Косметическо-игровых keys'
-REWARDS_6: '§7+§d%s§f Денежных keys'
+REWARDS_4: '§7+§d%s§f Cosmetics keys'
+REWARDS_5: '§7+§d%s§f Cosmetics-game keys'
+REWARDS_6: '§7+§d%s§f Money keys'
 REWARDS_7: '§7+§d%s§f Ultra keys'
 REWARDS_8: '§7+§e%s§f Golds'
 REWARDS_9: '§7+§b%s§f %s'
@@ -1036,7 +1035,7 @@ SERVER_QUEUE: '§aServer §8| §fTeleported to server §a%s'
 TAB_HEADER:
 - '§a§lFlyCore'
 - ''
-- '§fShop-online:'
+- '§fOnline-shop:'
 - '§ewww.flycore.ru'
 - ''
 TAB_FOOTER:
@@ -1110,7 +1109,7 @@ ITEM_TRACES_LORE:
  - ''
  - '§7Следы: %s'
  - ''
- - ' §e▸ Нажмите, чтобы %s следы'
+ - ' §e▸ Click, for %s следы'
 ITEM_GAME_NAME: '§eGame menu'
 ITEM_GAME_LORE:
  - '§7Universal device'
